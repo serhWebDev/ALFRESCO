@@ -1,0 +1,41 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body{
+    font-family: "Roboto", sans-serif;
+}
+#logo {
+    padding: 1px;
+    height: -webkit-fill-available;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#index-banner{
+    background: url("../img/bg.jpg") no-repeat center / cover; !important;
+};
+.mainContent{
+    margin: 0;
+    padding: 0;
+}
+.contentBlock{
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.contentBlockInside{
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    height: 100vh;
+    border: 1px solid #e1f5fe;
+    border-radius: 10px;
+    opacity: 1;
+}
